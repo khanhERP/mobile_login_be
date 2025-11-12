@@ -38,7 +38,7 @@ import {
   employees,
   purchaseReceiptDocuments,
   paymentMethods,
-} from "@shared/schema";
+} from "../shared/schema";
 import { initializeSampleData, db } from "./db";
 import { registerTenantRoutes } from "./tenant-routes";
 import {
@@ -261,7 +261,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const database = tenantDb || db;
 
       // Query sys_user table
-      const { sysUsers } = await import("@shared/schema");
+      const { sysUsers } = await import("../shared/schema");
       const { eq, and } = await import("drizzle-orm");
 
       const [user] = await database
@@ -389,7 +389,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const database = tenantDb || db;
 
       // Get sys_user table
-      const { sysUsers } = await import("@shared/schema");
+      const { sysUsers } = await import("../shared/schema");
       const { eq, and } = await import("drizzle-orm");
 
       // Find user - use username from request or from session
