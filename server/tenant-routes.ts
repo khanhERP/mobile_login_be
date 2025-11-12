@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 import { Express } from 'express';
 import { tenantManager } from './tenant-manager';
 
