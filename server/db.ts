@@ -185,7 +185,8 @@ class DatabaseManager {
       {
         subdomain: "0108670987-003-mobile",
         databaseUrl:
-          process.env.DATABASE_010867098 || process.env.EXTERNAL_DB_0108670987!,
+          process.env.DATABASE_0108670987 ||
+          process.env.EXTERNAL_DB_0108670987!,
         storeName: "Store 5 - Cửa hàng 0108670987-008",
         isActive: true,
       },
@@ -227,6 +228,14 @@ class DatabaseManager {
           process.env.DATABASE_0108670987 ||
           process.env.EXTERNAL_DB_0108670987!,
         storeName: "Store 5 - Cửa hàng 0108670987-008",
+        isActive: true,
+      },
+      {
+        subdomain: "0108670987-009-mobile",
+        databaseUrl:
+          process.env.DATABASE_0108670987 ||
+          process.env.EXTERNAL_DB_0108670987!,
+        storeName: "Store 5 - Cửa hàng 0108670987-009",
         isActive: true,
       },
       {
@@ -291,6 +300,160 @@ class DatabaseManager {
           process.env.DATABASE_0108670987_008 ||
           process.env.EXTERNAL_DB_0108670987_008!,
         storeName: "Store 5 - Cửa hàng 0108670987-008",
+        isActive: true,
+      },
+      {
+        subdomain: "227093000003-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_227093000003 ||
+          process.env.DATABASE_227093000003!,
+        storeName: "Store 6 - Cửa hàng 227093000003",
+        isActive: true,
+      },
+      {
+        subdomain: "8045550047-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_8045550047 || process.env.DATABASE_8045550047!,
+        storeName: "Store 6 - Cửa hàng 8045550047",
+        isActive: true,
+      },
+      {
+        subdomain: "8355337985-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_8355337985 || process.env.DATABASE_8355337985!,
+        storeName: "Store 6 - Cửa hàng 8355337985",
+        isActive: true,
+      },
+      {
+        subdomain: "0108670987-mobile",
+        databaseUrl:
+          process.env.DATABASE_0108670987 ||
+          process.env.EXTERNAL_DB_0108670987!,
+        storeName: "Store 5 - Cửa hàng 0108670987-mobile",
+        isActive: true,
+      },
+      {
+        subdomain: "001097090862-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_001097090862 ||
+          process.env.DATABASE_001097090862!,
+        storeName: "Store 7 - Cửa hàng 001097090862",
+        isActive: true,
+      },
+      {
+        subdomain: "0111063848-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0111063848 || process.env.DATABASE_0111063848!,
+        storeName: "Store 8 - Cửa hàng 0111063848",
+        isActive: true,
+      },
+      {
+        subdomain: "0353133905-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0353133905 || process.env.DATABASE_0353133905!,
+        storeName: "Store 9 - Cửa hàng 0353133905",
+        isActive: true,
+      },
+      {
+        subdomain: "001181043568-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_001181043568 ||
+          process.env.DATABASE_001181043568!,
+        storeName: "Store 10 - Cửa hàng 001181043568",
+        isActive: true,
+      },
+      {
+        subdomain: "0109636107-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0109636107 || process.env.DATABASE_0109636107!,
+        storeName: "Store 11 - Cửa hàng 0109636107",
+        isActive: true,
+      },
+      {
+        subdomain: "0354140787-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0354140787 || process.env.DATABASE_0354140787!,
+        storeName: "Store 12 - Cửa hàng 0354140787",
+        isActive: true,
+      },
+      {
+        subdomain: "0366995540-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0366995540 || process.env.DATABASE_0366995540!,
+        storeName: "Store 13 - Cửa hàng 0366995540",
+        isActive: true,
+      },
+      {
+        subdomain: "5500153691-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_5500153691 || process.env.DATABASE_5500153691!,
+        storeName: "Store 14 - Cửa hàng 5500153691",
+        isActive: true,
+      },
+      {
+        subdomain: "4601629329-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_4601629329 || process.env.DATABASE_4601629329!,
+        storeName: "Store 15 - Cửa hàng 4601629329",
+        isActive: true,
+      },
+      {
+        subdomain: "2803185369-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_2803185369 || process.env.DATABASE_2803185369!,
+        storeName: "Store 16 - Cửa hàng 2803185369",
+        isActive: true,
+      },
+      {
+        subdomain: "0317290403-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0317290403 || process.env.DATABASE_0317290403!,
+        storeName: "Store 17 - Cửa hàng 0317290403",
+        isActive: true,
+      },
+      {
+        subdomain: "8534009211-001-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_8534009211_001 ||
+          process.env.DATABASE_8534009211_001!,
+        storeName: "Store 18 - Cửa hàng 8534009211-001",
+        isActive: true,
+      },
+      {
+        subdomain: "082166003847-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_082166003847 ||
+          process.env.DATABASE_082166003847!,
+        storeName: "Store 19 - Cửa hàng 082166003847",
+        isActive: true,
+      },
+      {
+        subdomain: "1201699647-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_1201699647 || process.env.DATABASE_1201699647!,
+        storeName: "Store 20 - Cửa hàng 1201699647",
+        isActive: true,
+      },
+      {
+        subdomain: "1201668085-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_1201668085 || process.env.DATABASE_1201668085!,
+        storeName: "Store 21 - Cửa hàng 1201668085",
+        isActive: true,
+      },
+      {
+        subdomain: "0107713807-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_0107713807 || process.env.DATABASE_0107713807!,
+        storeName: "Store 22 - Cửa hàng 0107713807",
+        isActive: true,
+      },
+      {
+        subdomain: "8143584654001-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_8143584654001 ||
+          process.env.DATABASE_8143584654001!,
+        storeName: "Store 23 - Cửa hàng 8143584654001",
         isActive: true,
       },
     ];
@@ -465,112 +628,646 @@ export function getTenantPool(subdomain: string) {
 // Function to check and add missing columns from schema
 export async function checkAndAddMissingColumns() {
   console.log("🔍 Checking for missing columns in database...");
-  
+
   // Define schema structure with table name, column name, type, and default
   const schemaColumns = [
     // Categories table
-    { table: 'categories', column: 'name', type: 'TEXT NOT NULL', default: "''", index: null },
-    { table: 'categories', column: 'icon', type: 'TEXT NOT NULL', default: "'fa-folder'", index: null },
-    { table: 'categories', column: 'store_code', type: 'VARCHAR(50)', default: null, index: 'idx_categories_store_code' },
-    
+    {
+      table: "categories",
+      column: "name",
+      type: "TEXT NOT NULL",
+      default: "''",
+      index: null,
+    },
+    {
+      table: "categories",
+      column: "icon",
+      type: "TEXT NOT NULL",
+      default: "'fa-folder'",
+      index: null,
+    },
+    {
+      table: "categories",
+      column: "store_code",
+      type: "VARCHAR(50)",
+      default: null,
+      index: "idx_categories_store_code",
+    },
+
     // Products table
-    { table: 'products', column: 'name', type: 'TEXT NOT NULL', default: "''", index: null },
-    { table: 'products', column: 'sku', type: 'TEXT', default: null, index: 'idx_products_sku' },
-    { table: 'products', column: 'price', type: 'DECIMAL(18,2) NOT NULL', default: '0.00', index: null },
-    { table: 'products', column: 'stock', type: 'INTEGER NOT NULL', default: '0', index: null },
-    { table: 'products', column: 'category_id', type: 'INTEGER', default: null, index: 'idx_products_category_id' },
-    { table: 'products', column: 'image_url', type: 'TEXT', default: null, index: null },
-    { table: 'products', column: 'is_active', type: 'BOOLEAN NOT NULL', default: 'true', index: 'idx_products_is_active' },
-    { table: 'products', column: 'product_type', type: 'INTEGER NOT NULL', default: '1', index: null },
-    { table: 'products', column: 'track_inventory', type: 'BOOLEAN NOT NULL', default: 'true', index: null },
-    { table: 'products', column: 'tax_rate', type: 'DECIMAL(5,2) NOT NULL', default: '0.00', index: null },
-    { table: 'products', column: 'tax_rate_name', type: 'TEXT', default: null, index: null },
-    { table: 'products', column: 'price_includes_tax', type: 'BOOLEAN NOT NULL', default: 'false', index: null },
-    { table: 'products', column: 'after_tax_price', type: 'DECIMAL(18,2)', default: null, index: null },
-    { table: 'products', column: 'before_tax_price', type: 'DECIMAL(18,2)', default: null, index: 'idx_products_before_tax_price' },
-    { table: 'products', column: 'floor', type: 'VARCHAR(50)', default: "'1'", index: 'idx_products_floor' },
-    { table: 'products', column: 'zone', type: 'VARCHAR(50)', default: "'A'", index: 'idx_products_zone' },
-    { table: 'products', column: 'unit', type: 'TEXT', default: "'Cái'", index: null },
-    { table: 'products', column: 'store_code', type: 'VARCHAR(50)', default: null, index: 'idx_products_store_code' },
-    
+    {
+      table: "products",
+      column: "name",
+      type: "TEXT NOT NULL",
+      default: "''",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "sku",
+      type: "TEXT",
+      default: null,
+      index: "idx_products_sku",
+    },
+    {
+      table: "products",
+      column: "price",
+      type: "DECIMAL(18,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "stock",
+      type: "INTEGER NOT NULL",
+      default: "0",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "category_id",
+      type: "INTEGER",
+      default: null,
+      index: "idx_products_category_id",
+    },
+    {
+      table: "products",
+      column: "image_url",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "products",
+      column: "is_active",
+      type: "BOOLEAN NOT NULL",
+      default: "true",
+      index: "idx_products_is_active",
+    },
+    {
+      table: "products",
+      column: "product_type",
+      type: "INTEGER NOT NULL",
+      default: "1",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "track_inventory",
+      type: "BOOLEAN NOT NULL",
+      default: "true",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "tax_rate",
+      type: "DECIMAL(5,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "tax_rate_name",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "products",
+      column: "price_includes_tax",
+      type: "BOOLEAN NOT NULL",
+      default: "false",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "after_tax_price",
+      type: "DECIMAL(18,2)",
+      default: null,
+      index: null,
+    },
+    {
+      table: "products",
+      column: "before_tax_price",
+      type: "DECIMAL(18,2)",
+      default: null,
+      index: "idx_products_before_tax_price",
+    },
+    {
+      table: "products",
+      column: "floor",
+      type: "VARCHAR(50)",
+      default: "'1'",
+      index: "idx_products_floor",
+    },
+    {
+      table: "products",
+      column: "zone",
+      type: "VARCHAR(50)",
+      default: "'A'",
+      index: "idx_products_zone",
+    },
+    {
+      table: "products",
+      column: "unit",
+      type: "TEXT",
+      default: "'Cái'",
+      index: null,
+    },
+    {
+      table: "products",
+      column: "store_code",
+      type: "VARCHAR(50)",
+      default: null,
+      index: "idx_products_store_code",
+    },
+
     // Store settings table
-    { table: 'store_settings', column: 'store_name', type: 'TEXT NOT NULL', default: "'EDPOS 레스토랑'", index: null },
-    { table: 'store_settings', column: 'store_code', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'domain', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'tax_id', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'price_list_id', type: 'INTEGER', default: null, index: 'idx_store_settings_price_list_id' },
-    { table: 'store_settings', column: 'business_type', type: 'TEXT', default: "'restaurant'", index: null },
-    { table: 'store_settings', column: 'pin_code', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'user_name', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'password', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'is_admin', type: 'BOOLEAN', default: 'false', index: null },
-    { table: 'store_settings', column: 'parent', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'type_user', type: 'INTEGER', default: '0', index: null },
-    { table: 'store_settings', column: 'address', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'phone', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'email', type: 'TEXT', default: null, index: null },
-    { table: 'store_settings', column: 'open_time', type: 'TEXT', default: "'09:00'", index: null },
-    { table: 'store_settings', column: 'close_time', type: 'TEXT', default: "'22:00'", index: null },
-    { table: 'store_settings', column: 'gold_threshold', type: 'TEXT', default: "'300000'", index: null },
-    { table: 'store_settings', column: 'vip_threshold', type: 'TEXT', default: "'1000000'", index: null },
-    { table: 'store_settings', column: 'price_includes_tax', type: 'BOOLEAN', default: 'false', index: null },
-    { table: 'store_settings', column: 'default_floor', type: 'TEXT', default: "'1'", index: null },
-    { table: 'store_settings', column: 'default_zone', type: 'TEXT', default: "'A'", index: null },
-    { table: 'store_settings', column: 'floor_prefix', type: 'TEXT', default: "'층'", index: null },
-    { table: 'store_settings', column: 'zone_prefix', type: 'TEXT', default: "'구역'", index: null },
-    { table: 'store_settings', column: 'is_edit', type: 'BOOLEAN NOT NULL', default: 'false', index: null },
-    { table: 'store_settings', column: 'is_cancelled', type: 'BOOLEAN NOT NULL', default: 'false', index: null },
-    { table: 'store_settings', column: 'created_at', type: 'TIMESTAMPTZ', default: 'NOW()', index: null },
-    { table: 'store_settings', column: 'updated_at', type: 'TIMESTAMPTZ', default: 'NOW()', index: null },
-    
+    {
+      table: "store_settings",
+      column: "store_name",
+      type: "TEXT NOT NULL",
+      default: "'EDPOS 레스토랑'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "store_code",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "domain",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "tax_id",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "price_list_id",
+      type: "INTEGER",
+      default: null,
+      index: "idx_store_settings_price_list_id",
+    },
+    {
+      table: "store_settings",
+      column: "business_type",
+      type: "TEXT",
+      default: "'restaurant'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "pin_code",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "user_name",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "password",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "is_admin",
+      type: "BOOLEAN",
+      default: "false",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "parent",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "type_user",
+      type: "INTEGER",
+      default: "0",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "address",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "phone",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "email",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "open_time",
+      type: "TEXT",
+      default: "'09:00'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "close_time",
+      type: "TEXT",
+      default: "'22:00'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "gold_threshold",
+      type: "TEXT",
+      default: "'300000'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "vip_threshold",
+      type: "TEXT",
+      default: "'1000000'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "price_includes_tax",
+      type: "BOOLEAN",
+      default: "false",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "default_floor",
+      type: "TEXT",
+      default: "'1'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "default_zone",
+      type: "TEXT",
+      default: "'A'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "floor_prefix",
+      type: "TEXT",
+      default: "'층'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "zone_prefix",
+      type: "TEXT",
+      default: "'구역'",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "is_edit",
+      type: "BOOLEAN NOT NULL",
+      default: "false",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "is_cancelled",
+      type: "BOOLEAN NOT NULL",
+      default: "false",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "created_at",
+      type: "TIMESTAMPTZ",
+      default: "NOW()",
+      index: null,
+    },
+    {
+      table: "store_settings",
+      column: "updated_at",
+      type: "TIMESTAMPTZ",
+      default: "NOW()",
+      index: null,
+    },
+
     // Orders table
-    { table: 'orders', column: 'order_number', type: 'TEXT', default: null, index: 'idx_orders_order_number' },
-    { table: 'orders', column: 'table_id', type: 'INTEGER', default: null, index: 'idx_orders_table_id' },
-    { table: 'orders', column: 'employee_id', type: 'INTEGER', default: null, index: null },
-    { table: 'orders', column: 'customer_id', type: 'INTEGER', default: null, index: 'idx_orders_customer_id' },
-    { table: 'orders', column: 'status', type: 'TEXT NOT NULL', default: "'pending'", index: 'idx_orders_status' },
-    { table: 'orders', column: 'customer_name', type: 'TEXT', default: null, index: null },
-    { table: 'orders', column: 'customer_phone', type: 'TEXT', default: null, index: 'idx_orders_customer_phone' },
-    { table: 'orders', column: 'customer_tax_code', type: 'TEXT', default: null, index: 'idx_orders_customer_tax_code' },
-    { table: 'orders', column: 'customer_count', type: 'INTEGER', default: '1', index: null },
-    { table: 'orders', column: 'subtotal', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: null },
-    { table: 'orders', column: 'tax', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: null },
-    { table: 'orders', column: 'discount', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: 'idx_orders_discount' },
-    { table: 'orders', column: 'total', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: null },
-    { table: 'orders', column: 'payment_method', type: 'TEXT', default: null, index: null },
-    { table: 'orders', column: 'payment_status', type: 'TEXT NOT NULL', default: "'pending'", index: null },
-    { table: 'orders', column: 'is_paid', type: 'BOOLEAN NOT NULL', default: 'false', index: 'idx_orders_is_paid' },
-    { table: 'orders', column: 'einvoice_status', type: 'INTEGER NOT NULL', default: '0', index: null },
-    { table: 'orders', column: 'template_number', type: 'VARCHAR(50)', default: null, index: 'idx_orders_template_number' },
-    { table: 'orders', column: 'symbol', type: 'VARCHAR(20)', default: null, index: 'idx_orders_symbol' },
-    { table: 'orders', column: 'invoice_number', type: 'VARCHAR(50)', default: null, index: 'idx_orders_invoice_number' },
-    { table: 'orders', column: 'sales_channel', type: 'TEXT NOT NULL', default: "'table'", index: 'idx_orders_sales_channel' },
-    { table: 'orders', column: 'price_include_tax', type: 'BOOLEAN NOT NULL', default: 'false', index: 'idx_orders_price_include_tax' },
-    { table: 'orders', column: 'notes', type: 'TEXT', default: null, index: null },
-    { table: 'orders', column: 'store_code', type: 'VARCHAR(50)', default: null, index: 'idx_orders_store_code' },
-    { table: 'orders', column: 'ordered_at', type: 'TIMESTAMPTZ', default: 'NOW()', index: null },
-    { table: 'orders', column: 'served_at', type: 'TIMESTAMPTZ', default: null, index: null },
-    { table: 'orders', column: 'paid_at', type: 'TIMESTAMPTZ', default: null, index: null },
-    { table: 'orders', column: 'created_at', type: 'TIMESTAMPTZ', default: 'NOW()', index: null },
-    { table: 'orders', column: 'updated_at', type: 'TIMESTAMPTZ', default: 'NOW()', index: null },
-    
+    {
+      table: "orders",
+      column: "order_number",
+      type: "TEXT",
+      default: null,
+      index: "idx_orders_order_number",
+    },
+    {
+      table: "orders",
+      column: "table_id",
+      type: "INTEGER",
+      default: null,
+      index: "idx_orders_table_id",
+    },
+    {
+      table: "orders",
+      column: "employee_id",
+      type: "INTEGER",
+      default: null,
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "customer_id",
+      type: "INTEGER",
+      default: null,
+      index: "idx_orders_customer_id",
+    },
+    {
+      table: "orders",
+      column: "status",
+      type: "TEXT NOT NULL",
+      default: "'pending'",
+      index: "idx_orders_status",
+    },
+    {
+      table: "orders",
+      column: "customer_name",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "customer_phone",
+      type: "TEXT",
+      default: null,
+      index: "idx_orders_customer_phone",
+    },
+    {
+      table: "orders",
+      column: "customer_tax_code",
+      type: "TEXT",
+      default: null,
+      index: "idx_orders_customer_tax_code",
+    },
+    {
+      table: "orders",
+      column: "customer_count",
+      type: "INTEGER",
+      default: "1",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "subtotal",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "tax",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "discount",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: "idx_orders_discount",
+    },
+    {
+      table: "orders",
+      column: "total",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "payment_method",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "payment_status",
+      type: "TEXT NOT NULL",
+      default: "'pending'",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "is_paid",
+      type: "BOOLEAN NOT NULL",
+      default: "false",
+      index: "idx_orders_is_paid",
+    },
+    {
+      table: "orders",
+      column: "einvoice_status",
+      type: "INTEGER NOT NULL",
+      default: "0",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "template_number",
+      type: "VARCHAR(50)",
+      default: null,
+      index: "idx_orders_template_number",
+    },
+    {
+      table: "orders",
+      column: "symbol",
+      type: "VARCHAR(20)",
+      default: null,
+      index: "idx_orders_symbol",
+    },
+    {
+      table: "orders",
+      column: "invoice_number",
+      type: "VARCHAR(50)",
+      default: null,
+      index: "idx_orders_invoice_number",
+    },
+    {
+      table: "orders",
+      column: "sales_channel",
+      type: "TEXT NOT NULL",
+      default: "'table'",
+      index: "idx_orders_sales_channel",
+    },
+    {
+      table: "orders",
+      column: "price_include_tax",
+      type: "BOOLEAN NOT NULL",
+      default: "false",
+      index: "idx_orders_price_include_tax",
+    },
+    {
+      table: "orders",
+      column: "notes",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "store_code",
+      type: "VARCHAR(50)",
+      default: null,
+      index: "idx_orders_store_code",
+    },
+    {
+      table: "orders",
+      column: "ordered_at",
+      type: "TIMESTAMPTZ",
+      default: "NOW()",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "served_at",
+      type: "TIMESTAMPTZ",
+      default: null,
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "paid_at",
+      type: "TIMESTAMPTZ",
+      default: null,
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "created_at",
+      type: "TIMESTAMPTZ",
+      default: "NOW()",
+      index: null,
+    },
+    {
+      table: "orders",
+      column: "updated_at",
+      type: "TIMESTAMPTZ",
+      default: "NOW()",
+      index: null,
+    },
+
     // Order items table
-    { table: 'order_items', column: 'order_id', type: 'INTEGER', default: null, index: null },
-    { table: 'order_items', column: 'product_id', type: 'INTEGER', default: null, index: null },
-    { table: 'order_items', column: 'quantity', type: 'NUMERIC(8,4) NOT NULL', default: '1', index: null },
-    { table: 'order_items', column: 'unit_price', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: null },
-    { table: 'order_items', column: 'total', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: null },
-    { table: 'order_items', column: 'discount', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: 'idx_order_items_discount' },
-    { table: 'order_items', column: 'tax', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: 'idx_order_items_tax' },
-    { table: 'order_items', column: 'price_before_tax', type: 'DECIMAL(10,2) NOT NULL', default: '0.00', index: 'idx_order_items_price_before_tax' },
-    { table: 'order_items', column: 'notes', type: 'TEXT', default: null, index: null },
-    { table: 'order_items', column: 'store_code', type: 'VARCHAR(50)', default: null, index: 'idx_order_items_store_code' },
+    {
+      table: "order_items",
+      column: "order_id",
+      type: "INTEGER",
+      default: null,
+      index: null,
+    },
+    {
+      table: "order_items",
+      column: "product_id",
+      type: "INTEGER",
+      default: null,
+      index: null,
+    },
+    {
+      table: "order_items",
+      column: "quantity",
+      type: "NUMERIC(8,4) NOT NULL",
+      default: "1",
+      index: null,
+    },
+    {
+      table: "order_items",
+      column: "unit_price",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "order_items",
+      column: "total",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: null,
+    },
+    {
+      table: "order_items",
+      column: "discount",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: "idx_order_items_discount",
+    },
+    {
+      table: "order_items",
+      column: "tax",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: "idx_order_items_tax",
+    },
+    {
+      table: "order_items",
+      column: "price_before_tax",
+      type: "DECIMAL(10,2) NOT NULL",
+      default: "0.00",
+      index: "idx_order_items_price_before_tax",
+    },
+    {
+      table: "order_items",
+      column: "notes",
+      type: "TEXT",
+      default: null,
+      index: null,
+    },
+    {
+      table: "order_items",
+      column: "store_code",
+      type: "VARCHAR(50)",
+      default: null,
+      index: "idx_order_items_store_code",
+    },
   ];
-  
+
   let addedColumns = 0;
   let createdIndexes = 0;
-  
-  for (const { table, column, type, default: defaultValue, index } of schemaColumns) {
+
+  for (const {
+    table,
+    column,
+    type,
+    default: defaultValue,
+    index,
+  } of schemaColumns) {
     try {
       // Check if column exists
       const checkColumn = await db.execute(sql`
@@ -580,18 +1277,18 @@ export async function checkAndAddMissingColumns() {
         AND table_name = ${table}
         AND column_name = ${column}
       `);
-      
+
       if (!checkColumn.rows || checkColumn.rows.length === 0) {
         // Column doesn't exist, add it
-        const alterQuery = defaultValue 
+        const alterQuery = defaultValue
           ? `ALTER TABLE ${table} ADD COLUMN IF NOT EXISTS ${column} ${type} DEFAULT ${defaultValue}`
           : `ALTER TABLE ${table} ADD COLUMN IF NOT EXISTS ${column} ${type}`;
-        
+
         await db.execute(sql.raw(alterQuery));
         console.log(`  ✅ Added column ${table}.${column}`);
         addedColumns++;
       }
-      
+
       // Create index if specified and doesn't exist
       if (index) {
         const checkIndex = await db.execute(sql`
@@ -601,19 +1298,28 @@ export async function checkAndAddMissingColumns() {
           AND tablename = ${table}
           AND indexname = ${index}
         `);
-        
+
         if (!checkIndex.rows || checkIndex.rows.length === 0) {
-          await db.execute(sql.raw(`CREATE INDEX IF NOT EXISTS ${index} ON ${table}(${column})`));
+          await db.execute(
+            sql.raw(
+              `CREATE INDEX IF NOT EXISTS ${index} ON ${table}(${column})`,
+            ),
+          );
           console.log(`  📊 Created index ${index} on ${table}.${column}`);
           createdIndexes++;
         }
       }
     } catch (error) {
-      console.log(`  ⚠️ Error checking/adding ${table}.${column}:`, error.message);
+      console.log(
+        `  ⚠️ Error checking/adding ${table}.${column}:`,
+        error.message,
+      );
     }
   }
-  
-  console.log(`\n✅ Column check completed: ${addedColumns} columns added, ${createdIndexes} indexes created\n`);
+
+  console.log(
+    `\n✅ Column check completed: ${addedColumns} columns added, ${createdIndexes} indexes created\n`,
+  );
 }
 
 // Initialize sample data function
@@ -1315,7 +2021,9 @@ export async function initializeSampleData() {
         WHERE is_edit IS NULL OR is_cancelled IS NULL
       `);
 
-      console.log("✅ isEdit and isCancelled columns added to store_settings successfully");
+      console.log(
+        "✅ isEdit and isCancelled columns added to store_settings successfully",
+      );
     } catch (error) {
       console.log(
         "ℹ️ isEdit and isCancelled columns already exist or migration completed:",
@@ -3039,7 +3747,7 @@ export async function initializeSampleData() {
       );
     }
 
-   // Add price_list_id column to store_settings
+    // Add price_list_id column to store_settings
     try {
       await db.execute(sql`
 
@@ -3065,25 +3773,29 @@ export async function initializeSampleData() {
       console.log("Price list ID migration already applied or error:", error);
     }
 
-  // Run comprehensive column check migration
-  try {
-    console.log("🔍 Checking for missing columns from schema.ts...");
+    // Run comprehensive column check migration
+    try {
+      console.log("🔍 Checking for missing columns from schema.ts...");
 
-    // Read and execute the comprehensive migration file
-    const fs = await import("fs");
-    const path = await import("path");
-    const migrationPath = path.join(process.cwd(),"server","check_and_add_missing_columns.sql",);
+      // Read and execute the comprehensive migration file
+      const fs = await import("fs");
+      const path = await import("path");
+      const migrationPath = path.join(
+        process.cwd(),
+        "server",
+        "check_and_add_missing_columns.sql",
+      );
 
-    if (fs.existsSync(migrationPath)) {
-      const migrationSQL = fs.readFileSync(migrationPath, "utf-8");
-      await db.execute(sql.raw(migrationSQL));
-      console.log("✅ Column check migration completed successfully");
-    } else {
-      console.log("⚠️ Migration file not found, skipping column check");
+      if (fs.existsSync(migrationPath)) {
+        const migrationSQL = fs.readFileSync(migrationPath, "utf-8");
+        await db.execute(sql.raw(migrationSQL));
+        console.log("✅ Column check migration completed successfully");
+      } else {
+        console.log("⚠️ Migration file not found, skipping column check");
+      }
+    } catch (migrationError) {
+      console.log("⚠️ Column check migration error:", migrationError);
     }
-  } catch (migrationError) {
-    console.log("⚠️ Column check migration error:", migrationError);
-  }
 
     console.log("✅ Database setup completed successfully");
   } catch (error) {
